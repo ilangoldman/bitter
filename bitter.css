@@ -1,0 +1,27 @@
+/*
+ * Ilan Goldman - z5050782
+ * Created :October 2015
+ * COMP2041/9041 assignment 2: http://cgi.cse.unsw.edu.au/~cs2041/assignments/bitter/
+ */
+
+body {
+   background-image: url("background.jpg");
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+.menu {
+   top:5%;
+   left:40%;
+   position:absolute;
+}
+
+.button {
+   background-color: rgb(200,200,200);
+   border:thin solid rgb(120,20,20);
+   border-radius: 0.42em;
+   height:3em;
+   margin: 1em;
+   color: rgb(120,20,20);
+}

@@ -1,0 +1,123 @@
+/*
+ * Ilan Goldman - z5050782
+ * Created :October 2015
+ * COMP2041/9041 assignment 2: http://cgi.cse.unsw.edu.au/~cs2041/assignments/bitter/
+ */
+ 
+/* tokyo-blue-background.jpg */
+
+/* @import url(menu_opener.css) */
+/*
+
+body {
+   background-image: url("images/background.jpg");
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+background: #34495e;
+*/
+
+body {
+   background: white;
+}
+
+/*
+.heading {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: white;
+    text-align: center;
+    font-family: "Courier New";
+    font-style: italic;
+    font-size: 3em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+*/
+
+.clearfix {
+   overflow: auto;
+}
+
+.user_image {
+    /* background-color: rgb(184,184,184);
+    left: 1em;
+    right: 1em;
+    white-space: pre;
+    border:thin solid rgb(100,10,10);
+    border-radius: 1em;
+    width:20em;
+    height:20em;
+    */
+    float: center;
+    margin: 1em;
+    padding-left: 0.5em;
+}
+
+.user_details {
+    background-color: rgb(240,240,240);
+    background-position: left top;
+    color: #204142;
+    white-space: pre-wrap;
+    border:thin solid #204142;
+    border-radius: 2em;
+    padding-left: 0.5em;
+    clear: left;
+    float: left;
+    margin: 0.5em;
+   width: 22em;
+}
+
+.bleats {
+   background-color: rgb(240,240,240);
+   background-position: center center;
+   left: 1em;
+   right: 1em;
+   white-space: pre-wrap;
+   border:thin solid rgb(100,10,10);
+   border-radius: 1em;
+   float: left;
+   right: 1em;
+   left: 1em;
+   width: 40em;
+   margin: 1em;
+   padding-left: 1em;
+   padding-right: 1em;
+}
+
+#bleats ul {
+   position: center center;
+   margin:0;
+   padding:0;
+   list-style-type: none;
+}
+
+.bleats_hr {
+   display: block;
+   background-color: white;
+   text-decoration: none;
+   padding: 1em 1em;
+}
+
+.page_not_found {
+   top:40%;
+   left:40%;
+   color: black;
+   position:absolute;
+}
+
+.button {
+   background-color: rgb(200,200,200);
+   border:thin solid rgb(120,20,20);
+   border-radius: 0.42em;
+   height:3em;
+   margin: 1em;
+   color: rgb(120,20,20);
+}
+
+.menu {
+   top:40%;
+   left:40%;
+   position: absolute;
+}
